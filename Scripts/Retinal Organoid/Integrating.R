@@ -97,7 +97,7 @@ OrganoidB[[2]] <- subset(OrganoidB[[2]], DF.classifications_0.25_0.09_39 == "Sin
 OrganoidB[[3]] <- subset(OrganoidB[[3]], DF.classifications_0.25_0.09_442 == "Singlet")
 OrganoidB[[4]] <- subset(OrganoidB[[4]], DF.classifications_0.25_0.09_245 == "Singlet")
 
-#读取其他Dataset
+#露脕脠隆脝盲脣没Dataset
 OrganoidE <- CreateSeuratObject(counts = Read10X("/share/home/zhuxm/liaochh/data/Matrix/Read10X/E-M8/"), project = "E")
 levels(OrganoidE@meta.data[["orig.ident"]]) <- "E"
 OrganoidE <- AddMetaData(object = OrganoidE, metadata = "D240", col.name = "Time")
