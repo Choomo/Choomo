@@ -155,4 +155,3 @@ Organoid.combined <- FindNeighbors(Organoid.combined, dims = 1:18)
 Organoid.combined <- FindClusters(Organoid.combined, resolution = 0.5)
 Organoid.combined <- RunUMAP(Organoid.combined, dims = 1:18)
 save(Organoid.combined, file = "/share/home/zhuxm/liaochh/data/Matrix/Organoid_combined_new3.RData")
-
